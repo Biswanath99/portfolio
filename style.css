@@ -675,3 +675,43 @@ footer span a:hover{
         line-height: 38px;
     }
 }
+
+.social-media{
+    position: absolute;
+    
+    left: 50%;
+    transform: translate(-50%,10%);
+
+}
+.social-media div{
+   display: inline;
+}
+.social-media div a{
+   width: 80px;
+   height: 80px;
+   display: inline-flex;
+   background: #2c3e50;
+   font-size: 40px;
+   color: #fff;
+   margin: 0 6px;
+   border-radius: 50%;
+   padding: 20px;
+}
+.social-media .facebook a:hover{
+   background-color: #2268f3;
+}
+.social-media a i{
+   transition: .5s all;
+}
+.social-media a:hover > i{
+   transform:scale(1.0) rotate(360deg);
+}
+.social-media .twitter a:hover{
+   background-color: #1da1f2;
+}
+.social-media .google a:hover{
+   background-color: #d34c3d;
+}
+.social-media .instagram a:hover{
+   background-color: #000;
+}
