@@ -715,3 +715,7 @@ footer span a:hover{
 .social-media .instagram a:hover{
    background-color: #000;
 }
+
+.social-media .mail a:hover{
+    background-color: rgb(216, 27, 27);
+ }
